@@ -35,22 +35,21 @@
 
 /*サイドバーmenu*/
 
-.side-main {
-  height: calc(100vh - 100px);
+.rooms {
   background-color: #2F3E51;
+  height: calc(100vh - 100px);
   padding: 0 20px;
-  overflow: scroll
+  overflow: scroll;
 }
 
-.side-room {
-  padding: 20px 0 40px 0;
+.room {
+  padding: 20px 0 40px;
 }
 
-.side-room-name a{
- color: white;
- text-decoration: none;
+.room-name a {
+  text-decoration: none;
+  color: white;
 }
-
 /*チャットメイン*/
 
 .chat {
@@ -124,12 +123,13 @@
 
 /*チャット投稿フォーム*/
 
-.chat-form {
-  height: 90px;
+.form {
   background-color: #DDDDDD;
+  height: 90px;
   padding: 20px 40px;
   display: flex;
 }
+
 .form-input {
   background-color: white;
   display: flex;
